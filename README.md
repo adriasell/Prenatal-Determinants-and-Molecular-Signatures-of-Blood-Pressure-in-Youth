@@ -11,5 +11,5 @@ The data supporting the findings from this study are available within the manusc
 ## Repository Structure
 The repository is organized to distinguish between the core analytical pipeline, custom utility functions, and the specific software environment used:
 * Codi: Contains the primary R scripts used to execute the multi-omics integration and environmental driver analysis.
-* Packages: Contains a modified version of the RGCCA R package. This version allows to set sparsity to 0, which essential for the specific requirements of this prenatal blood pressure study.
+* Packages: Contains a modified version of the RGCCA R package. This version allows to set sparsity to 0, which essential for the specific requirements of this study.
 * Scripts: Contains auxiliary R functions and custom utility scripts called by the main analysis files.
